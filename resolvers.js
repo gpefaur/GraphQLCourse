@@ -7,7 +7,7 @@ module.exports = {
       return dataSources.sessionAPI.getSessionById(id);
     },
     speakers: (parent, args, { dataSources }, info) => {
-      return dataSources.speakersAPI.getSpeakers();
+      return dataSources.speakerAPI.getSpeakers();
     },
     speakerById: (parent, { id }, { dataSources }, info) => {
       return dataSources.speakerAPI.getSpeakerById(id);
